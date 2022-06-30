@@ -40,6 +40,18 @@
 
 ![image](https://user-images.githubusercontent.com/93958596/148009696-f302f679-5073-410f-974e-69ce7722ba12.png)
 
+![image](https://user-images.githubusercontent.com/94011974/176794631-1ef99fbb-93f3-4d1b-a699-8fc0c9adfca4.png)
+
+![image](https://user-images.githubusercontent.com/94011974/176794642-f23e68fd-0b88-4ed1-a5ff-0613f08cc1a7.png)
+
+![image](https://user-images.githubusercontent.com/94011974/176794655-e5bf63ce-764e-4f16-8ca6-6fa0f7efc045.png)
+
+![image](https://user-images.githubusercontent.com/94011974/176794668-bc29ce89-a43d-452e-bc64-011d661b9547.png)
+
+![image](https://user-images.githubusercontent.com/94011974/176794696-c2ae0460-1482-460c-8628-d23c570e3279.png)
+
+![image](https://user-images.githubusercontent.com/94011974/176794678-d46bd41b-d53a-4b36-a5df-0e384a8b7591.png)
+
 ***
 
 **4. Materiales y equipos requeridos**
