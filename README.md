@@ -50,17 +50,31 @@ Comprobar el cumplimiento del Teorema de Superposición, mediante el análisis d
 
 **3. Requerimientos previos**
 
+Circuito armanado
+
 ![image](https://user-images.githubusercontent.com/93958596/148009620-469c75af-838b-486b-acd7-5c3ed40ff48c.png)
+
+Medicion de Va
 
 ![image](https://user-images.githubusercontent.com/93958596/148009630-280717ef-b4ff-4bc8-9dcb-8dc1530fd4ba.png)
 
+Medicion de Ix
+
 ![image](https://user-images.githubusercontent.com/93958596/148009653-de50a538-18a1-485e-844b-068d05861b64.png)
 
-![image](https://user-images.githubusercontent.com/93958596/148009666-357383ea-0f66-417e-8f2c-d25577be1500.png)
+Medicion de Va con conrto circuito a la derecha
 
-![image](https://user-images.githubusercontent.com/93958596/148009674-20c4e77d-5997-4e48-944d-207c3208cb35.png)
+![image](https://user-images.githubusercontent.com/94011974/176892822-14eb7ede-6a8a-4214-aa28-4943af829b7d.png)
+
+Medicion de Ix con corto circuito a la derecha 
+
+![image](https://user-images.githubusercontent.com/94011974/176892836-99883fc7-f020-4cde-a1a6-3398466e40b1.png)
+
+Medicion de Va con corto circuito a la izquierda
 
 ![image](https://user-images.githubusercontent.com/93958596/148009682-95a09dcb-4ca6-4eca-97e8-bd6e1121caac.png)
+
+Medicion de Ix con corto circuito a la izquierda
 
 ![image](https://user-images.githubusercontent.com/93958596/148009696-f302f679-5073-410f-974e-69ce7722ba12.png)
 
