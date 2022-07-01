@@ -100,85 +100,101 @@ Medicion de Ix con corto circuito a la izquierda
 
 **5. Procedimiento**
 
-Cuando la fuente de voltaje V2 = 0
+![image](https://user-images.githubusercontent.com/94011974/176898306-cbaa1832-5cf9-4fd7-9edb-0117393ffc90.png)
 
-![image](https://user-images.githubusercontent.com/93958596/148107988-1567e662-2d8b-4cd9-bccd-a8ce0c0f82e7.png)
+- Eliminando el voltaje de 12 V
 
-Para hallar la resistencia total:
+![image](https://user-images.githubusercontent.com/94011974/176898376-3b87da6e-90ec-4a68-8c18-905ac2759131.png)
 
-Req1 = 820 Ω + 470 Ω = 1290 Ω = 1.29 kΩ
+Puesto que la resistencia de 470 ohm esta en cortocircuito, sale de nuestro circuito original y ya no interviene en el análisis
 
-1/Req2 = 1/1.29 kΩ + 1/2.2 kΩ = 1.23 kΩ
+Sacando resistencia equivalente
 
-Req2 = 1/1.23 kΩ = 0.813 kΩ
+Re = ((0.82)(2.2))/(0.82+2.2) = 0.597 k[ohms] + 1 k[ohms] = 1.597 k[ohms]
 
-RT = 0.813 kΩ + 1 kΩ = 1.813 kΩ
+It = V/R = 20/1.597 = 12.523 mA
 
-Aplicando la ley de OHM se halla la corriente total:
+Usando divisor de corrientes
 
-IT = Vs / RT = 20 V / 1.813 kΩ = 11.03 mA
+Ia = (2.2/(2.2+0.82))*12.523 = 9.12 mA
 
-Hallamos la corriente en la resistencia de 2.2 kΩ (I1) con la fórmula de divisor de corriente:
+Usando ley de ohm para hallar Va
 
-I1 = (0.813 kΩ / 2.2 kΩ) * 11.03 mA = 4.08 mA
+V = IR
 
-Aplicando la ley de las corrientes de Kirchoff, hallamos la corriente que circula por la resistencia de 820 Ω que, en este caso es la misma corriente Ix:
+Va = 9.12 * 0.82
 
-IT – I1 – Ix = 0, entonces: Ix = IT – I1 = 11.03 mA – 4.08 mA = 6.95 mA
+Va = 7.48 V
 
-Ahora hallamos el voltaje VA:
+Ix = 0
 
-VA = 6.95 mA * 0.82 kΩ = 5.699 V = 5.7 V
+- Eliminando el voltaje de 20V
 
-Pero como el voltaje está en sentido contrario a como circula, VA = -5.7 V y la corriente es Ix = 6.95 mA
+![image](https://user-images.githubusercontent.com/94011974/176899169-e913fda9-f372-421f-a7d1-3be1de8df7c8.png)
 
-Cuando la fuente de voltaje V1 = 0
+Re = (1)(2.2)/(3.2) = 0.69 + 0.82 = 1.51
 
-![image](https://user-images.githubusercontent.com/93958596/148107958-bb31e687-2a92-48fb-b828-430bf3086526.png)
+RT = (1.51)(0.47)/(1.51+0.47) = 0.35829
 
-Para hallar la resistencia total:
+Ley de Ohm
 
-1/Req1 = 1/1 kΩ + 1/2.2 kΩ = 1.45 kΩ
+IT = 12/0.35829 = 33.429
 
-Req1 = 1/1.45 kΩ = 0.69 kΩ
+Divisores de corriente
 
-Req2 = 0.82 kΩ + 0.69 kΩ = 1.51 kΩ
+Ix = ((1.5075)/(1.5075+0.47)) * 33.429 = 25.53 mA
 
-1/RT= 1/1.51 kΩ + 1/0.47 kΩ = 2.79 kΩ
+IRe = ((0.47)/(1.5075+0.47))*33.429 = 7.96
 
-RT = 1/2.79 kΩ = 0.36 kΩ
+Usando ley de ohm para halla Va
 
-Aplicando la ley de OHM se halla la corriente total:
+Va = 7.96*0.820 = 6.53V
 
-IT = Vs / RT = 12 V / 0.36 kΩ = 33.33 mA
+- Teorema de superposición
 
-Hallamos la corriente Ix con la fórmula de divisor de corriente:
+Calculo de voltaje Va
 
-Ix = (0.36 kΩ / 0.47 kΩ) * 33.33 mA = 25.53 mA
+Va = Va1 + Va2 = 7.48 - 6.53 = 0.95 V
 
-Aplicando la ley de las corrientes de Kirchoff, hallamos la corriente (IA) que circula por la resistencia de 820 Ω
+Calculo de corriente Ix
 
-IT – IA – Ix = 0, entonces: IA = IT – Ix = 33.33 mA – 25.53 mA = 7.8 mA
-
-Aplicando la ley de OHM hallamos el voltaje VA:
-
-VA = 7.8 mA * 0.82 kΩ = 6.396 V = 6.4 V
-
-Entonces VA = 6.4 V y la corriente Ix = 25.53 mA 
-
-Realizando la suma algebraica entre los voltajes encontrados:
-
-VA = 6.4 V – 5.7 V = 0.7 V = 700 mV
-
-Realizando la suma algebraica entre las corrientes encontradas:
-
-Ix = 25.53 mA + 6.52 mA = 32.05 mA
-
-![image](https://user-images.githubusercontent.com/93958596/148009826-f2fb4d89-ca6c-434d-ad17-333e018610b2.png)
+Ix = Ix1 + Ix2 = 25.5mA + 0 = 25.5mA
 
 ***
 
-**6. Cálculo de error**
+Respuesta a interrogantes
+
+4.5.1. Arme el circuito que se muestra en la figura 4.1.
+
+![image](https://user-images.githubusercontent.com/94011974/176900606-affd1773-5ca4-414b-9f5d-afe4f3a116ac.png)
+
+4.5.2. Con las dos fuentes conectadas, mida el voltaje VA y la corriente IX, respetando tanto la polaridad del voltaje como el sentido de la corriente que se proporcionan. Anote el valor de las mediciones en la tabla 4.1 y 4.2 respectivamente.
+
+![image](https://user-images.githubusercontent.com/94011974/176900726-5059b599-47ed-4565-96e3-f7c3c3542f56.png)
+
+4.5.3. Haga “cero” la fuente de voltaje de 12 V (V2) y mida el voltaje VA y la corriente IX, respetando tanto la polaridad del voltaje como el sentido de la corriente que se proporcionan. Anote el valor de las mediciones en la tabla 4.1 y 4.2 respectivamente.
+
+![image](https://user-images.githubusercontent.com/94011974/176900766-dd157366-cac2-4138-b9b2-d6e4850f0e3f.png)
+
+4.5.4. Haga “cero” la fuente de voltaje de 20 V (V1) y mida el voltaje VA y la corriente IX, respetando tanto la polaridad del voltaje como el sentido de la corriente que se proporcionan. Anote el valor de las mediciones en la tabla 4.1 y 4.2 respectivamente.
+
+![image](https://user-images.githubusercontent.com/94011974/176900790-1fefa6c2-9d2c-4ed3-b6c9-c9a03a7e7314.png)
+
+Tabla 4.1. Medición de voltaje aplicando superposición.
+
+![image](https://user-images.githubusercontent.com/94011974/176900839-653ca3ab-6d92-467c-84ce-bd1061466b97.png)
+
+Tabla 4.2. Medición de corriente aplicando superposición.
+
+![image](https://user-images.githubusercontent.com/94011974/176900872-aa90e80c-eb2d-4645-8393-1155572f3261.png)
+
+4.5.5. Verifique el cumplimiento del Teorema de Superposición y compare los resultados obtenidos prácticamente con los obtenidos analíticamente. Realice sus conclusiones.
+
+Como se observa, en los valores tanto de la tabla 4.1, como los de la tabla 4.2, los valores calculados y los valores medidos en el simulador no difieren, es decir son iguales y por lo tanto no existe ningun error.
+
+***
+
+**7. Cálculo de error**
 
 ![image](https://user-images.githubusercontent.com/94011974/170057592-12d7c136-22cd-4cac-9532-0e92eb81f1b9.png)
 
@@ -186,13 +202,13 @@ Ix = 25.53 mA + 6.52 mA = 32.05 mA
 
 ***
 
-**7. Vídeo**
+**8. Vídeo**
 
 https://www.youtube.com/watch?v=QRnXTnPeEh0
 
 ***
 
-**8. Conclusiones**
+**9. Conclusiones**
 
 - A partir de lo investigado anteriormente, se puede concluir que el Teorema de Superposición, se utiliza cuando tenemos varias fuentes de voltaje o de corriente, se puede determinar el voltaje y la corriente algebraicamente, por la ley de ohm, leyes de Kirchhoff, métodos de mallas, tensiones en los nodos, etc. Las fuentes de voltaje igualadas a 0 equivale a un cortocircuito y las fuentes de corriente igualadas a 0 equivalen a circuito abierto, por lo que se les reemplaza respectivamente.
 
@@ -203,7 +219,7 @@ https://www.youtube.com/watch?v=QRnXTnPeEh0
 - Analizando el porcentaje de error, se concluye que el voltaje total se encuentra bien calculado y la variación mínima del error entre los datos calculados y los simulados es por los decimales que son tomados en cuenta en los cálculos realizados, mientras que el porcentaje de error entre los valores calculados y experimentales es mayor porque se conoce que los circuitos experimentales se ven afectados por distintos factores.
 ***
 
-**9. Bibliografía**
+**10. Bibliografía**
 
 Floyd, T. (2007). Principios de circuitos eléctricos. PEARSON Educación. https://drive.google.com/file/d/15UCq2JrPEKKB8SwajlmtTcE07nMiowaK/view
 
@@ -211,6 +227,6 @@ García, A. (29 de marzo de 2021). Ley de corriente de Kirchhoff: Análisis de n
 
 ***
 
-10. Rubrica
+11. Rubrica
 
 ![image](https://user-images.githubusercontent.com/94011974/169427061-265123c2-f557-4b9a-9ef6-5a545e89aff2.png)
