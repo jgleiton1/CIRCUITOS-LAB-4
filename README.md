@@ -188,6 +188,8 @@ Ix = 25.53 mA + 6.52 mA = 32.05 mA
 
 **7. Vídeo**
 
+https://www.youtube.com/watch?v=QRnXTnPeEh0
+
 ***
 
 **8. Conclusiones**
