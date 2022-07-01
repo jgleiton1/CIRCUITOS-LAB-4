@@ -198,7 +198,7 @@ Como se observa, en los valores tanto de la tabla 4.1, como los de la tabla 4.2,
 
 ![image](https://user-images.githubusercontent.com/94011974/170057592-12d7c136-22cd-4cac-9532-0e92eb81f1b9.png)
 
-![image](https://user-images.githubusercontent.com/105259459/176825460-132084ac-7bc0-4178-a635-4e078e5efa77.png)
+![image](https://user-images.githubusercontent.com/105259459/176933690-f9c1b1f6-5120-4188-9f57-1c6749720c53.png)
 
 ***
 
