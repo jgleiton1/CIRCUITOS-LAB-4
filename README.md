@@ -168,6 +168,8 @@ Ix = 25.53 mA + 6.52 mA = 32.05 mA
 
 ![image](https://user-images.githubusercontent.com/94011974/170057592-12d7c136-22cd-4cac-9532-0e92eb81f1b9.png)
 
+![image](https://user-images.githubusercontent.com/105259459/176825460-132084ac-7bc0-4178-a635-4e078e5efa77.png)
+
 ***
 
 **7. Vídeo**
@@ -182,6 +184,7 @@ Ix = 25.53 mA + 6.52 mA = 32.05 mA
 
 - En la justificación del video se pude observar la construcción del circuito y su funcionamiento, se puede ver como se toman las medidas indicadas, también la construcción del circuito en el simulador de Tinkercad y su toma de medidas mediante simulación, se explica el análisis que se realizó para el Teorema de Superposición.
 
+- Analizando el porcentaje de error, se concluye que el voltaje total se encuentra bien calculado y la variación mínima del error entre los datos calculados y los simulados es por los decimales que son tomados en cuenta en los cálculos realizados, mientras que el porcentaje de error entre los valores calculados y experimentales es mayor porque se conoce que los circuitos experimentales se ven afectados por distintos factores.
 ***
 
 **9. Bibliografía**
