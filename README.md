@@ -14,9 +14,20 @@
 
    **1.1. Objetivo General** 
 
+Comprobar el cumplimiento del Teorema de Superposición, mediante el análisis de los circuitos eléctricos, las simulaciones y las prácticas de laboratorio físicas, para afianzar los conocimientos adquiridos en clase.
+
 ***
 
   **1.2. Objetivos Específicos:**
+
+- Construir mapas conceptuales que resuman el Teorema de Superposición, a partir de una búsqueda bibliográfica
+
+- Calcular las medidas de voltajes y corrientes de los nodos del circuito, mediante la construcción del circuito de forma física, en el simulador de Tinkercad y analíticamente utilizando superposición.
+
+- Justificar el desarrollo del laboratorio, mediante la presentación de un video, en el que se explique la resolución del Teorema de superposición y el funcionamiento del circuito.
+
+- Comparar los resultados que se obtienen analíticamente, simuladamente y experimentalmente
+
 
 ***
 
@@ -151,6 +162,12 @@ Ix = 25.53 mA + 6.52 mA = 32.05 mA
 ***
 
 **8. Conclusiones**
+
+- A partir de lo investigado anteriormente, se puede concluir que el Teorema de Superposición, se utiliza cuando tenemos varias fuentes de voltaje o de corriente, se puede determinar el voltaje y la corriente algebraicamente, por la ley de ohm, leyes de Kirchhoff, métodos de mallas, tensiones en los nodos, etc. Las fuentes de voltaje igualadas a 0 equivale a un cortocircuito y las fuentes de corriente igualadas a 0 equivalen a circuito abierto, por lo que se les reemplaza respectivamente.
+
+- Como se ha podido observar se realizó el cálculo de las medidas de voltaje, y de corriente, se construyó el circuito indicado y con la ayuda de un multímetro se tomó las medidas experimentales indicadas, después en Tinkercad se hizo una simulación del circuito obteniendo las medidas de voltajes y corrientes simuladas, finalmente se calculó el voltaje y la corriente utilizando el Teorema de Superposición, primero realizamos el circuito cuando V2=0 y hallamos la corriente y el voltaje por la ley de ohm y divisor de voltaje ohm, cuando V1=0 realizamos el mismo proceso que en V2 para hallar su voltaje y corriente.
+
+- En la justificación del video se pude observar la construcción del circuito y su funcionamiento, se puede ver como se toman las medidas indicadas, también la construcción del circuito en el simulador de Tinkercad y su toma de medidas mediante simulación, se explica el análisis que se realizó para el Teorema de Superposición.
 
 ***
 
