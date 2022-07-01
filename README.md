@@ -6,6 +6,8 @@
 
 ## FUNDAMENTOS DE CIRCUITOS ELECTRICOS
 
+## SEGUNDO PARCIAL
+
 ***
 
 **1. Objetivos**
@@ -32,6 +34,17 @@ Comprobar el cumplimiento del Teorema de Superposición, mediante el análisis d
 ***
 
 **2. Marco Teórico**
+
+![image](https://user-images.githubusercontent.com/105686218/176813453-867b7216-02f1-4993-84f5-b93a04a84add.png)
+
+![image](https://user-images.githubusercontent.com/105686218/176813481-a29b626a-9777-4c9b-89f9-82b04e8e8cc0.png)
+
+![image](https://user-images.githubusercontent.com/105686218/176813524-2a1b19fc-ba81-4967-9212-5d5754615b3b.png)
+
+![image](https://user-images.githubusercontent.com/105686218/176813551-52126556-2ad6-42df-9a5c-17d835e0bdca.png)
+
+![image](https://user-images.githubusercontent.com/105686218/176813599-23eeaffd-1ce8-4c9b-b32e-72b131799e7c.png)
+
 
 ***
 
